@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>介绍</title>
+      <title>start</title>
       <link href="/2023/02/03/hello-world/"/>
       <url>/2023/02/03/hello-world/</url>
       
@@ -20,9 +20,63 @@
       
         <tags>
             
-            <tag> Typora </tag>
-            
             <tag> Markdown </tag>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>latex学习笔记——安装配置</title>
+      <link href="/2022/11/20/latex-1/"/>
+      <url>/2022/11/20/latex-1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="latex介绍"><a href="#latex介绍" class="headerlink" title="latex介绍"></a>latex介绍</h1><p><a href="https://www.latex-project.org/">官方地址</a><br>latex是一种简洁高效的排版系统</p><h1 id="latex的安装"><a href="#latex的安装" class="headerlink" title="latex的安装"></a>latex的安装</h1><p><strong>texlive的安装</strong>                 </p><p><strong>texstudio的安装</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> latex </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>写在数据新闻进决赛之际</title>
+      <link href="/2022/11/13/datajournalism/"/>
+      <url>/2022/11/13/datajournalism/</url>
+      
+        <content type="html"><![CDATA[<p>第二届新视听媒体融合创新创意大赛，决赛……从中国数据新闻大赛再到这个比赛，最想感慨的是感谢金禾、浙大、ACCA的好朋友，让我发现了自己的学习能力，更准确点说是让我愿意去学习，去接触一个完全陌生的领域。以后继续加油叭~<br><br><br><br><br><a href="https://economy.gmw.cn/2022-11/28/content_36194165.htm">复赛通知</a><br><br><br><br></p><p>和浙大同学and金禾、ACCA好朋友一起合作的作品：<br><a href="https://vote6.gmw.cn/words-details.html?collection_id=575&amp;collectioninfo_id=80327&amp;weixin_id=default">无声言证，为无声者发声，他们试图接通世界断裂的两端</a></p><p>要特别特别感谢浙大同学的辛苦付出，其中感觉自己有很多没做好的地方，选题想大家都关注到这个群体，关注到聋哑人面临的困境。<br><br><br><br><br><br><br><br><br>和同班同学一起合作的作品：<br><a href="https://vote6.gmw.cn/words-details.html?collection_id=575&amp;collectioninfo_id=80315&amp;weixin_id=default">十年，看见产业兴旺，数说陕甘宁振兴发展</a><br><br><br><br><br><br><br><br></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 比赛 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据新闻 </tag>
+            
+            <tag> 感悟 </tag>
             
         </tags>
       

@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="杨小羊的魔法盒">
-    <meta name="description" content="本网站是个人兴趣爱好，总结分享经验，记录生活点滴的平台，希望在以后的学习旅途中，走出自己的风景。">
+    <meta name="description" content="记录思考点滴，希望在以后的学习旅途中，走出自己的风景。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -208,7 +208,7 @@
         <div class="logo-name">杨小羊的魔法盒</div>
         <div class="logo-desc">
             
-            本网站是个人兴趣爱好，总结分享经验，记录生活点滴的平台，希望在以后的学习旅途中，走出自己的风景。
+            记录思考点滴，希望在以后的学习旅途中，走出自己的风景。
             
         </div>
     </div>
@@ -361,13 +361,6 @@
 
 <div class="carousel carousel-slider center index-cover" data-indicators="true" style="margin-top: -64px;">
     
-        <div id="prev-cover" class="left waves-effect carousel-control">
-            <i class="icon fa fa-angle-left"></i>
-        </div>
-        <div id="next-cover" class="right waves-effect carousel-control">
-            <i class="icon fa fa-angle-right"></i>
-        </div>
-    
 
     <div class="carousel-item  white-text bg-cover about-cover">
         <div class="container">
@@ -421,7 +414,7 @@
                 </a>
 
                 
-                    <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light btn" target="_blank">
+                    <a href="https://github.com/runnerxjtu/myself" class="waves-effect waves-light btn" target="_blank">
                         <i class="fab fa-github-alt"></i>Github
                     </a>
                 
@@ -467,14 +460,60 @@
                 <div class="container">
                     <div class="row">
                         <div class="col s10 offset-s1">
-                            <div class="title center-align">介绍</div>
+                            <div class="title center-align">start</div>
                             <div class="description center-align">
                                 
-                                    这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要
+                                    文章摘要demo，
                                 
                             </div>
                             <div class="cover-btns">
                                 <a href="/2023/02/03/hello-world/" class="waves-effect waves-light btn"
+                                   target="_blank">
+                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div class="carousel-item amber white-text carousel-post bg-cover"
+                 style="background-image: url('/medias/images/01.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="title center-align">latex学习笔记——安装配置</div>
+                            <div class="description center-align">
+                                
+                                    从中国数据新闻大赛再到这个比赛，最想感慨的是
+                                
+                            </div>
+                            <div class="cover-btns">
+                                <a href="/2022/11/20/latex-1/" class="waves-effect waves-light btn"
+                                   target="_blank">
+                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div class="carousel-item amber white-text carousel-post bg-cover"
+                 style="background-image: url('/medias/images/02.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="title center-align">写在数据新闻进决赛之际</div>
+                            <div class="description center-align">
+                                
+                                    从中国数据新闻大赛再到这个比赛，最想感慨的是
+                                
+                            </div>
+                            <div class="cover-btns">
+                                <a href="/2022/11/13/datajournalism/" class="waves-effect waves-light btn"
                                    target="_blank">
                                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                                 </a>
@@ -507,7 +546,7 @@
         coverSlider.carousel({
             duration: Number('120'),
             fullWidth: true,
-            indicators: 'true' === 'true',
+            indicators: 'false' === 'true',
             onCycleTo() {
                 if (!initUserPressedOrDraggedActive) {
                     // console.log('initUserPressedOrDraggedActive')
@@ -519,32 +558,11 @@
 
         let carouselIntervalId;
         
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
 
         function restartPlay() {
             
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
         };
 
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
         
     });
 </script>
@@ -605,9 +623,9 @@
                     
                 </div>
                 <a href="/2023/02/03/hello-world/">
-                    <h3 class="post-title">介绍</h3>
+                    <h3 class="post-title">start</h3>
                 </a>
-                <p class="post-description">这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要</p>
+                <p class="post-description">文章摘要demo，</p>
                 <a href="/2023/02/03/hello-world/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>阅读更多
                 </a>
@@ -639,16 +657,16 @@
                     <a href="/2023/02/03/hello-world/">
                         <div class="card-image">
                             
-                            <img src="/medias/images/03.jpg" class="responsive-img" alt="介绍">
+                            <img src="/medias/images/03.jpg" class="responsive-img" alt="start">
                             
-                            <span class="card-title">介绍</span>
+                            <span class="card-title">start</span>
                         </div>
                     </a>
 
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                这是你自定义的文章摘要内容，如果这个属性有值，文章卡片摘要就显示这段文字，否则程序会自动截取文章的部分内容作为摘要
+                                文章摘要demo，
                             
                         </div>
                         <div class="publish-info">
@@ -671,12 +689,116 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/Typora/">
-                            <span class="chip bg-color">Typora</span>
-                        </a>
-                        
                         <a href="/tags/Markdown/">
                             <span class="chip bg-color">Markdown</span>
+                        </a>
+                        
+                        <a href="/tags/Hexo/">
+                            <span class="chip bg-color">Hexo</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2022/11/20/latex-1/">
+                        <div class="card-image">
+                            
+                            <img src="/medias/images/01.jpg" class="responsive-img" alt="latex学习笔记——安装配置">
+                            
+                            <span class="card-title">latex学习笔记——安装配置</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                从中国数据新闻大赛再到这个比赛，最想感慨的是
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-20
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    学习
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/latex/">
+                            <span class="chip bg-color">latex</span>
+                        </a>
+                        
+                        <a href="/tags/%E5%AD%A6%E4%B9%A0/">
+                            <span class="chip bg-color">学习</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+              <!-- 隐藏某个文章 -->
+            
+             <!-- 隐藏某个文章 -->
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2022/11/13/datajournalism/">
+                        <div class="card-image">
+                            
+                            <img src="/medias/images/02.jpg" class="responsive-img" alt="写在数据新闻进决赛之际">
+                            
+                            <span class="card-title">写在数据新闻进决赛之际</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                从中国数据新闻大赛再到这个比赛，最想感慨的是
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-11-13
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E6%AF%94%E8%B5%9B/" class="post-category">
+                                    比赛
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/%E6%95%B0%E6%8D%AE%E6%96%B0%E9%97%BB/">
+                            <span class="chip bg-color">数据新闻</span>
+                        </a>
+                        
+                        <a href="/tags/%E6%84%9F%E6%82%9F/">
+                            <span class="chip bg-color">感悟</span>
                         </a>
                         
                     </div>
@@ -731,7 +853,7 @@
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
                    type="playlist"
-                   id="503838841"
+                   id="1954090536"
                    fixed='true'
                    autoplay='false'
                    theme='#42b983'
@@ -1079,6 +1201,6 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-z16"},"display":{"position":"left","width":200,"height":400},"mobile":{"show":false},"log":false});</script></body>
 
 </html>
